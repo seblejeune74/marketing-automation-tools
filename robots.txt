@@ -1,0 +1,9 @@
+User-agent: *
+# Empêcher l'indexation du panel d'administration
+Disallow: /admin/
+
+# Logs serveur (Backup temporaire) - NE PAS INDEXER
+Disallow: /secret_logs/
+
+# Ancienne version du site
+Disallow: /old/
